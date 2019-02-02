@@ -1,0 +1,64 @@
+body {
+	background: #ccc;
+}
+
+.col-md-6 {
+ 	background-color: #E4E4E4;
+}
+
+.border-right-red {
+	border-right: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+	.col-xxs-12 {
+		width:100%;
+		float:none;
+		clear:both;
+	}
+	
+	.border-right-red {
+		border-right: none;
+	}
+
+}
+
+.navbar-default {
+	background: transparent;
+	border: none;
+}
+
+.bgwhite {
+	background-color: white;
+}
+
+.bgpink {
+	background-color: pink;
+}
+
+.footer {
+	background: #ccc;
+}
+
+.my_glyphicon {
+	font-size: 22px;
+	color: red;
+	top: -2px;
+	background: yellow;
+	border-radius: 100%;
+}
+
+.top-margin {
+	margin-top: 50px;
+}
+
+.top_bottom_margin10 {
+	margin: 10px 0;
+}
+
+.form-control:focus {
+	border-color: #d518e1;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,133,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,133,.6);	
+}
