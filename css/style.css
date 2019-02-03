@@ -1,5 +1,10 @@
 body {
+	font-family: 'Lobster', cursive, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: #ccc;
+}
+
+p, span, li, input, textarea, label, button, a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .col-md-6 {
