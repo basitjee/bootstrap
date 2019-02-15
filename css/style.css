@@ -3,7 +3,7 @@ body {
 	background: #ccc;
 }
 
-p, span, li, input, textarea, label, button, a {
+p, span, li, input, textarea, label, button, a, .carousel-inner {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
